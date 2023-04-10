@@ -15,7 +15,7 @@ const About = () => {
             I'm Ross. Welcome to my portfolio.
           </h1>
         </Slide>
-        <p className="mb-4 text-lg md:text-xl text-center">
+        <p className="text-lg md:text-xl text-center">
           I'm a developer based in Richmond, Virginia, with a goal to create
           visually appealing, easy to use websites and applications. With a Full
           Stack + Mobile certificate from Nucamp Coding Bootcamp, professional
@@ -25,7 +25,7 @@ const About = () => {
           and technology.
         </p>
       </div>
-      <div className="w-full sm:w-1/2 h-full bg-[#E5E5E5] flex justify-center items-center px-4 pb-[10%] sm:pb-0">
+      <div className="w-full sm:w-1/2 h-full bg-[#E5E5E5] flex justify-center items-center p-2 pb-[10%] sm:pb-0">
         <img src={Headshot} alt="Ross Gordon" className="w-auto h-auto" />
       </div>
     </div>
