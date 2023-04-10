@@ -10,7 +10,7 @@ const Hero = () => {
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <h1 className="text-4xl sm:text-7xl font-bold">Ross Gordon</h1>
-        <h2 className="text-4xl sm:text-7xl font-bold">Front-End Developer</h2>
+        <h2 className="text-3xl sm:text-7xl font-bold">Front-End Developer</h2>
         <div className="flex flex-cols-2 gap-4 pt-4">
           <button className=" bg-[#EDF2F4] hover:bg-[#8D99AE] border-2 border-black group px-6 py-3 my-2 flex items-center">
             <Link
