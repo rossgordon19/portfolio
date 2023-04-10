@@ -1,6 +1,7 @@
 import React from 'react';
 import { BsFillArrowRightCircleFill, BsArrowDownShort } from 'react-icons/bs';
 import { Link } from 'react-scroll';
+import Resume from '../assets/resume.pdf'
 
 
 const Hero = () => {
@@ -23,7 +24,7 @@ const Hero = () => {
           </button>
 
           <button className="bg-[#EDF2F4] hover:bg-[#8D99AE] border-2 border-black group px-6 py-3 my-2 flex items-center">
-            <a href='/' target="_blank" className="text-black">
+            <a href={Resume} target="_blank" className="text-black">
               Resume
             </a>
           </button>
