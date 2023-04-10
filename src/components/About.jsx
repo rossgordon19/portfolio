@@ -25,7 +25,7 @@ const About = () => {
           and technology.
         </p>
       </div>
-      <div className="w-full sm:w-1/2 h-full bg-[#E5E5E5] flex justify-center items-center px-4">
+      <div className="w-full sm:w-1/2 h-full bg-[#E5E5E5] flex justify-center items-center px-4 pb-[10%] sm:pb-0">
         <img src={Headshot} alt="Ross Gordon" className="w-auto h-auto" />
       </div>
     </div>
