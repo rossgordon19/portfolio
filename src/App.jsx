@@ -6,9 +6,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 // import Projects from './components/Projects';
-import ProjectsComingSoon from './components/return new Promise((resolve, reject) => {
-  
-});'
+import ProjectsComingSoon from './components/ProjectsComingSoon';
 
 function App() {
   return (
