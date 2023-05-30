@@ -29,7 +29,7 @@ const Footer = () => {
           {/* GitHub */}
           <a
             className="text-3xl hover:text-[#8D99AE]"
-            href="https://github.com/rossagordon"
+            href="https://github.com/rossgordon19"
             target="_blank"
           >
             <BsGithub />

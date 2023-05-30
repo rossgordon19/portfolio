@@ -1,8 +1,5 @@
 import React from 'react';
-import Pourover from '../assets/espresso.jpg';
-import Scorpion from '../assets/scorpion.png';
-import Seal from '../assets/seal.png';
-import ImgGenerator from '../assets/imggenerator.png'
+import Webtools from '../assets/webtools.png';
 
 const Projects = () => {
   return (
@@ -16,31 +13,34 @@ const Projects = () => {
 
         {/* Projects */}
         <div className="grid sm:grid-cols-2  md:grid-cols-3 gap-4 mt-[-20px] text-black">
-          {/* Project 1 • AI Image Generator */}
+          {/* Project 1 • WebTools.io */}
           <div className="rounded-md shadow-lg bg-[#fff]">
-            <a href="https://ai-img-generator.netlify.app/" target="_blank">
+            <a href="https://webtoolsio.netlify.app/" target="_blank">
               <img
-                src={ImgGenerator}
+                src={Webtools}
                 className="rounded-lg hover:scale-105 duration-300 w-full"
-                alt="A hand poured latte next to a laptop"
+                alt="WebTools.io • Get Ahead with WebTools"
               />
             </a>
             <div className="px-6 py-4 text-center">
               <div className="font-bold text-xl mb-2 text-center">
-                AI Image Generator
+                WebTools.io
               </div>
-              <p className="pb-2"></p>
+              <p className="pb-2">
+                3 projects, 1 app - QR code generator, URL shortener, and DALL·E
+                2 API image generator.
+              </p>
               <p className="font-extrabold">Technologies Used:</p>
-              <p>React, Tailwind, Dall-E-2 API </p>
+              <p>React, Vite, Tailwind, Dall-E-2 API, is.gd API </p>
             </div>
             <div className="text-center mt-5">
-              <a href="https://ai-img-generator.netlify.app/" target="_blank">
+              <a href="https://webtoolsio.netlify.app/" target="_blank">
                 <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
                   Demo
                 </button>
               </a>
               <a
-                href="https://github.com/rossagordon/image-generator"
+                href="https://github.com/rossgordon19/webtools.io"
                 target="_blank"
               >
                 <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
@@ -50,64 +50,34 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Project 2 • Good Coffee */}
-          <div className="rounded-md shadow-lg">
-            <a href="https://coffeeshopsite.netlify.app" target="_blank">
-              <img
-                src={Pourover}
-                className="rounded-lg hover:scale-105 duration-300"
-                alt="A hand poured latte next to a laptop"
-              />
-            </a>
-            <div className="px-6 py-4 text-center">
-              <div className="font-bold text-xl mb-2 text-center">
-                Good Coffee
-              </div>
-              <p className="pb-2">Coffee Shop themed landing page</p>
-              <p className="font-extrabold">Technologies Used:</p>
-              <p>React, Tailwind CSS</p>
-            </div>
-            <div className="text-center mt-5">
-              <a href="https://coffeeshopsite.netlify.app/" target="_blank">
-                <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
-                  Demo
-                </button>
-              </a>
-              <a
-                href="https://github.com/rossagordon/Coffee-Shop-Landing-Page"
-                target="_blank"
-              >
-                <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
-                  Code
-                </button>
-              </a>
-            </div>
-          </div>
-
-          {/* Project 3 • Lotus of my Heart */}
+          {/* Project 1 • WebTools.io */}
           <div className="rounded-md shadow-lg bg-[#fff]">
-            <a href="https://www.lotusofmyheart.net/" target="_blank">
+            <a href="https://webtoolsio.netlify.app/" target="_blank">
               <img
-                src={Scorpion}
-                className="rounded-lg hover:scale-105 duration-300"
-                alt="A hand poured latte next to a laptop"
+                src={Webtools}
+                className="rounded-lg hover:scale-105 duration-300 w-full"
+                alt="WebTools.io • Get Ahead with WebTools"
               />
             </a>
             <div className="px-6 py-4 text-center">
               <div className="font-bold text-xl mb-2 text-center">
-                Lotus of my Heart
+                WebTools.io
               </div>
+              <p className="pb-2">
+                3 projects, 1 app - QR code generator, URL shortener, and DALL·E
+                2 API image generator.
+              </p>
               <p className="font-extrabold">Technologies Used:</p>
-              <p>React • Tailwind</p>
+              <p>React, Vite, Tailwind, Dall-E-2 API, is.gd API </p>
             </div>
             <div className="text-center mt-5">
-              <a href="https://www.lotusofmyheart.net/" target="_blank">
+              <a href="https://webtoolsio.netlify.app/" target="_blank">
                 <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
                   Demo
                 </button>
               </a>
               <a
-                href="https://github.com/rossagordon/Lotus-of-My-Heart"
+                href="https://github.com/rossgordon19/webtools.io"
                 target="_blank"
               >
                 <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
@@ -117,30 +87,34 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Project 4 • Crypto Tracker */}
+          {/* Project 1 • WebTools.io */}
           <div className="rounded-md shadow-lg bg-[#fff]">
-            <a href="https://krustyscrypto.netlify.app/" target="_blank">
+            <a href="https://webtoolsio.netlify.app/" target="_blank">
               <img
-                src={Seal}
-                className="rounded-lg hover:scale-105 duration-300 mx-auto"
-                alt="A hand poured latte next to a laptop"
+                src={Webtools}
+                className="rounded-lg hover:scale-105 duration-300 w-full"
+                alt="WebTools.io • Get Ahead with WebTools"
               />
             </a>
             <div className="px-6 py-4 text-center">
               <div className="font-bold text-xl mb-2 text-center">
-                Crypto Dashboard
+                WebTools.io
               </div>
+              <p className="pb-2">
+                3 projects, 1 app - QR code generator, URL shortener, and DALL·E
+                2 API image generator.
+              </p>
               <p className="font-extrabold">Technologies Used:</p>
-              <p>React, Tailwind, CoinGecko API</p>
+              <p>React, Vite, Tailwind, Dall-E-2 API, is.gd API </p>
             </div>
             <div className="text-center mt-5">
-              <a href="https://krustyscrypto.netlify.app/" target="_blank">
+              <a href="https://webtoolsio.netlify.app/" target="_blank">
                 <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
                   Demo
                 </button>
               </a>
               <a
-                href="https://github.com/rossagordon/Coffee-Shop-Landing-Page"
+                href="https://github.com/rossgordon19/webtools.io"
                 target="_blank"
               >
                 <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
