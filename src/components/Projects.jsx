@@ -13,9 +13,9 @@ const Projects = () => {
 
         {/* Projects */}
         <div className="grid sm:grid-cols-2  md:grid-cols-3 gap-4 mt-[-20px] text-black">
-          {/* Project 1 • WebTools.io */}
+          {/* Project 1 • GoalFocus */}
           <div className="rounded-md shadow-lg bg-[#fff]">
-            <a href="https://webtoolsio.netlify.app/" target="_blank">
+            <a href="https://google.com" target="_blank">
               <img
                 src={Webtools}
                 className="rounded-lg hover:scale-105 duration-300 w-full"
@@ -24,23 +24,22 @@ const Projects = () => {
             </a>
             <div className="px-6 py-4 text-center">
               <div className="font-bold text-xl mb-2 text-center">
-                WebTools.io
+                GoalFocus
               </div>
               <p className="pb-2">
-                3 projects, 1 app - QR code generator, URL shortener, and DALL·E
-                2 API image generator.
+              GoalFocus is a goal tracker web app with CRUD functionality, authentication, and login capabilities.
               </p>
               <p className="font-extrabold">Technologies Used:</p>
-              <p>React, Vite, Tailwind, Dall-E-2 API, is.gd API </p>
+              <p>React, Vite, TypeScript, Tailwind CSS</p>
             </div>
             <div className="text-center mt-5">
-              <a href="https://webtoolsio.netlify.app/" target="_blank">
+              <a href="https://google.com" target="_blank">
                 <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
                   Demo
                 </button>
               </a>
               <a
-                href="https://github.com/rossgordon19/webtools.io"
+                href="https://google.com"
                 target="_blank"
               >
                 <button className="text-center rounded-lg px-2 py-2 m-2 bg-[#fff] text-[#000] border font-bold text-lg hover:bg-[#000] hover:text-[#fff]">
@@ -50,7 +49,7 @@ const Projects = () => {
             </div>
           </div>
 
-          {/* Project 1 • WebTools.io */}
+          {/* Project 2 • WebTools.io */}
           <div className="rounded-md shadow-lg bg-[#fff]">
             <a href="https://webtoolsio.netlify.app/" target="_blank">
               <img
