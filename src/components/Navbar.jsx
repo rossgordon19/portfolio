@@ -8,31 +8,33 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#000000] text-[#fff]">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#171e42] text-[#fff]">
       <div>
-        <h1 className="font-bold">RG</h1>
+        <Link to="home">
+          <h1 className="font-bold cursor-pointer">RG</h1>
+        </Link>
       </div>
 
       {/* Navbar */}
       <ul className="hidden md:flex cursor-pointer">
-        <li className="hover:underline px-4">
+        <li className="hover:text-[#c7f744] px-4">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
 
-        <li className="hover:underline px-4">
+        <li className="hover:text-[#c7f744] px-4">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
 
-        <li className="hover:underline px-4">
+        <li className="hover:text-[#c7f744] px-4">
           <Link to="projects" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li className="hover:underline px-4">
+        <li className="hover:text-[#c7f744] px-4">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -53,7 +55,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#000000] text-[#fff] flex flex-col justify-center items-center'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#171e42] text-[#fff] flex flex-col justify-center items-center'
         }
       >
         <li className="py-6 text-4xl hover:underline">

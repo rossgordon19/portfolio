@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <div name="skills" className="bg-[#000] text-[#EDF2F4] w-full h-[140vh]">
+    <div name="skills" className="bg-[#171e42] text-[#fff] w-full h-[140vh]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>

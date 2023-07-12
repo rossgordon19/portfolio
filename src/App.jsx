@@ -6,7 +6,6 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
-// import ProjectsComingSoon from './components/ProjectsComingSoon';
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      {/* <ProjectsComingSoon /> */}
       <Contact />
       <Footer />
     </div>

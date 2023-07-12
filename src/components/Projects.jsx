@@ -5,7 +5,7 @@ import Skinny from '../assets/skinny.png';
 
 const Projects = () => {
   return (
-    <div name="projects" className="bg-[#E5E5E5v] w-full text-black">
+    <div name="projects" className="w-full bg-[#fff] text-black">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full">
         <div className="pb-8">

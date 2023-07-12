@@ -4,14 +4,14 @@ import Github from '../assets/github.svg';
 
 const Footer = () => {
   return (
-    <div className="w-full h-[210px] bg-[#000000] text-white flex justify-center items-center">
+    <div className="w-full h-[210px] bg-[#171e42] text-[#fff] flex justify-center items-center">
       {/* Container */}
       <div className="font-bold inline">
         <p className="text-3xl">Let's Connect.</p>
         <div className="flex flex-cols-2 mx-auto justify-between p-6">
           {/* Email */}
           <a
-            className="text-3xl hover:text-[#8D99AE]"
+            className="text-3xl hover:text-[#c7f744]"
             href="mailto:rossagordonstl@gmail.com"
           >
             <BsEnvelopeFill />
@@ -19,7 +19,7 @@ const Footer = () => {
 
           {/* LinkedIn */}
           <a
-            className="text-3xl hover:text-[#8D99AE]"
+            className="text-3xl hover:text-[#c7f744]"
             href="https://www.linkedin.com/in/rossagordon/"
             target="_blank"
           >
@@ -28,7 +28,7 @@ const Footer = () => {
 
           {/* GitHub */}
           <a
-            className="text-3xl hover:text-[#8D99AE]"
+            className="text-3xl hover:text-[#c7f744]"
             href="https://github.com/rossgordon19"
             target="_blank"
           >
