@@ -14,7 +14,7 @@ const Navbar = () => {
       </div>
 
       {/* Navbar */}
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex cursor-pointer">
         <li className="hover:underline px-4">
           <Link to="home" smooth={true} duration={500}>
             Home
