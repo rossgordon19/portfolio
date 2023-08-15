@@ -8,7 +8,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#171e42] text-[#fff] z-50">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2F3E46] text-[#fff] z-50">
       <div>
         <Link to="home">
           <h1 className="font-bold cursor-pointer">RG</h1>
@@ -17,24 +17,24 @@ const Navbar = () => {
 
       {/* Navbar */}
       <ul className="hidden md:flex cursor-pointer">
-        <li className="hover:text-[#c7f744] px-4">
+        <li className="hover:text-[#CAD2C5] px-4">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
 
-        <li className="hover:text-[#c7f744] px-4">
+        <li className="hover:text-[#CAD2C5] px-4">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
 
-        <li className="hover:text-[#c7f744] px-4">
+        <li className="hover:text-[#CAD2C5] px-4">
           <Link to="projects" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li className="hover:text-[#c7f744] px-4">
+        <li className="hover:text-[#CAD2C5] px-4">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -55,7 +55,7 @@ const Navbar = () => {
         className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 left-0 w-full h-screen bg-[#171e42] text-[#fff] flex flex-col justify-center items-center z-50'
+            : 'absolute top-0 left-0 w-full h-screen bg-[#2F3E46] text-[#fff] flex flex-col justify-center items-center z-50'
         }
       >
         <li className="py-6 text-4xl hover:underline">

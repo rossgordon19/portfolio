@@ -5,7 +5,7 @@ import Resume from '../assets/resume.pdf';
 
 const Hero = () => {
   return (
-    <div name="home" className="w-full h-screen bg-[#171e42] text-[#fff]">
+    <div name="home" className="w-full h-screen bg-[#2F3E46] text-[#fff]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
         <h1 className="text-4xl sm:text-7xl font-bold">Ross Gordon</h1>
@@ -17,12 +17,12 @@ const Hero = () => {
             duration={500}
             className="text-black"
           >
-            <button className=" bg-[#EDF2F4] hover:bg-[#c7f744] border-2 border-black group px-6 py-3 my-2 flex items-center">
+            <button className=" bg-[#EDF2F4] hover:bg-[#354F52] hover:text-white hover:border-white border-2 border-black  group px-6 py-3 my-2 flex items-center">
               Projects
             </button>
           </Link>
           <a href={Resume} target="_blank" className="text-black">
-            <button className="bg-[#EDF2F4] hover:bg-[#c7f744] border-2 border-black group px-6 py-3 my-2 flex items-center">
+            <button className="bg-[#EDF2F4] hover:bg-[#354F52] hover:text-white border-2 border-black hover:border-white group px-6 py-3 my-2 flex items-center">
               Resume
             </button>
           </a>

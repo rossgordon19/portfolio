@@ -5,7 +5,7 @@ import Skinny from '../assets/skinny.png';
 
 const Projects = () => {
   return (
-    <div name="projects" className="w-full bg-[#fff] text-black">
+    <div name="projects" className="w-full bg-[#2F3E46] text-[#fff]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full">
         <div className="pb-8">
@@ -20,14 +20,12 @@ const Projects = () => {
             <a href="https://goal-flow.netlify.app" target="_blank">
               <img
                 src={GoalFlow}
-                className="rounded-lg object-cover hover:scale-105 duration-300 h-[300px] mx-auto"
+                className="object-cover hover:scale-105 duration-300 h-[300px] w-full"
                 alt="GoalFlow"
               />
             </a>
             <div className="px-6 py-4 text-center">
-              <div className="font-bold text-xl mb-2 text-center">
-                GoalFlow
-              </div>
+              <div className="font-bold text-xl mb-2 text-center">GoalFlow</div>
               <p className="pb-2">
                 GoalFlow is a goal tracker web app with CRUD functionality and
                 Authentication.
@@ -57,7 +55,7 @@ const Projects = () => {
             <a href="https://webtoolsio.netlify.app/" target="_blank">
               <img
                 src={Webtools}
-                className="rounded-lg object-cover hover:scale-105 duration-300 h-[300px]"
+                className="object-cover hover:scale-105 duration-300 h-[300px]"
                 alt="WebTools.io • Get Ahead with WebTools"
               />
             </a>
@@ -94,7 +92,7 @@ const Projects = () => {
             <a href="https://eastsideskinnyv.com" target="_blank">
               <img
                 src={Skinny}
-                className="rounded-lg object-cover hover:scale-105 duration-300 h-[300px] mb-6"
+                className="object-cover hover:scale-105 duration-300 h-[300px] mb-6"
                 alt="Skinny V • Richmond, VA"
               />
             </a>
