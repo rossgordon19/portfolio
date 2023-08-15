@@ -5,7 +5,7 @@ import Skinny from '../assets/skinny.png';
 
 const Projects = () => {
   return (
-    <div name="projects" className="w-full bg-[#2F3E46] text-[#fff]">
+    <div id="projects" className="w-full bg-[#2F3E46] text-[#fff]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full">
         <div className="pb-8">
@@ -20,7 +20,7 @@ const Projects = () => {
             <a href="https://goal-flow.netlify.app" target="_blank">
               <img
                 src={GoalFlow}
-                className="object-cover hover:scale-105 duration-300 h-[300px] w-full"
+                className="object-cover h-[300px] w-full"
                 alt="GoalFlow"
               />
             </a>
@@ -55,7 +55,7 @@ const Projects = () => {
             <a href="https://webtoolsio.netlify.app/" target="_blank">
               <img
                 src={Webtools}
-                className="object-cover hover:scale-105 duration-300 h-[300px]"
+                className="object-cover h h-[300px]"
                 alt="WebTools.io • Get Ahead with WebTools"
               />
             </a>
@@ -92,7 +92,7 @@ const Projects = () => {
             <a href="https://eastsideskinnyv.com" target="_blank">
               <img
                 src={Skinny}
-                className="object-cover hover:scale-105 duration-300 h-[300px] mb-6"
+                className="object-cover h-[300px] mb-6"
                 alt="Skinny V • Richmond, VA"
               />
             </a>

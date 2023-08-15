@@ -4,7 +4,7 @@ import Headshot from '../assets/portfolio.jpg';
 const About = () => {
   return (
     <div
-      name="about"
+      id="about"
       className="w-full sm:min-h-screen md:h-screen flex flex-col bg-[#2F3E46] text-[#fff]"
     >
       <div className="flex flex-col md:flex-row items-center justify-center md:min-h-[50vh] lg:min-h-[60vh]">
