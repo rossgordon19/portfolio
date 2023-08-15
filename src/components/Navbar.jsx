@@ -17,24 +17,22 @@ const Navbar = () => {
 
       {/* Navbar */}
       <ul className="hidden md:flex cursor-pointer">
-        <li className="hover:text-[#CAD2C5] px-4">
+        <li className="hover:underline px-4">
           <Link to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-
-        <li className="hover:text-[#CAD2C5] px-4">
+        <li className="hover:underline px-4">
           <Link to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-
-        <li className="hover:text-[#CAD2C5] px-4">
+        <li className="hover:underline px-4">
           <Link to="projects" smooth={true} duration={500}>
             Projects
           </Link>
         </li>
-        <li className="hover:text-[#CAD2C5] px-4">
+        <li className="hover:underline px-4">
           <Link to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -58,6 +56,10 @@ const Navbar = () => {
             : 'absolute top-0 left-0 w-full h-screen bg-[#2F3E46] text-[#fff] flex flex-col justify-center items-center z-50'
         }
       >
+        {/* Close Button Inside Mobile Menu */}
+        <div onClick={handleClick} className="absolute top-4 right-4 z-60">
+          <AiOutlineClose className="cursor-pointer text-4xl" />
+        </div>
         <li className="py-6 text-4xl hover:underline">
           <Link to="home" smooth={true} duration={500} onClick={handleClick}>
             Home
