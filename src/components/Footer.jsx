@@ -4,7 +4,7 @@ import Github from '../assets/github.svg';
 
 const Footer = () => {
   return (
-    <div className="w-full h-[510px] md:h-[210px] bg-[#2F3E46] text-[#fff] flex justify-center items-center">
+    <div className="w-full h-[510px] md:h-[210px] bg-[#2F3E46] text-[#fff] flex justify-center items-center flex-col">
       {/* Container */}
       <div className="font-bold inline">
         <p className="text-3xl">Let's Connect.</p>
@@ -36,6 +36,14 @@ const Footer = () => {
           </a>
         </div>
       </div>
+      {/* Source Code */}
+      <a
+        className="text-xs text-[#fff] hover:text-black mt-2"
+        href="https://github.com/rossgordon19/portfolio"
+        target="_blank"
+      >
+        Source Code
+      </a>
     </div>
   );
 };
